@@ -20,6 +20,7 @@ export default {
     extend: {
       fontFamily: {
         norwester: ["Norwester", "sans-serif"],
+        leagueSpartan: ["League Spartan", "sans-serif"],
       },
     },
   },
