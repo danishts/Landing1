@@ -1,5 +1,9 @@
 import React from 'react'
 import ww from "./assets/ww.png";
+import oo from "./assets/oo.png";
+import YOU from "./assets/YOU.png";
+import UU from "./assets/UU.png";
+import TT from "./assets/TT.png";
 import line from "./assets/line.png";
 import img from "./assets/img.png";
 import Time from "./assets/Time.png";
@@ -50,7 +54,7 @@ function Features() {
       </div>
 
 
-<div className='flex mt-5 h-[96x] w-screen '>
+        <div className='flex mt-5 h-[96x] w-screen '>
       
         <div className='flex justify-center flex-col bg-black h-[779px] w-[850px] items-center  text-red-500'>
         <img
@@ -107,12 +111,12 @@ function Features() {
       
         <div className='flex justify-center flex-col bg-black h-[779px] w-[850px] items-center  text-red-500'>
         <img
-            src={ww}
+            src={oo}
             alt="ww"
             className=" "
           />
           <div className='flex   flex-col'>
-            <h1 className='text-[#FFF528] text-2xl font-semibold'>FAST WORKFLOW BUILT FOR BROADCAST</h1>
+            <h1 className='text-[#FFF528] text-2xl font-semibold'>  CONNECT, CAPTURE AND SHARE </h1>
             <p className='text-white text-1xl'>Quickly find and incorporate <br /> relevant fan-generated content <br />
               that resonates with your viewers.</p>       
           </div>
@@ -131,15 +135,61 @@ function Features() {
           </div>
           
         </div>
-         <div className='flex justify-center items-center w-[950px] bg-pink-400 text-4xl text-red-500'> <img
-            src={img}
+         <div className='flex justify-center items-center w-[950px]  text-4xl text-red-500'> <img
+            src={YOU}
             alt="line"
             className=" mr-10 "
           /> </div>
       
       </div>
-      <div className='flex text-red-500 '> malik is back</div>
 
+
+      <div className='flex mt-5 h-full w-screen '>
+      
+        <div className='flex justify-center flex-col bg-black h-[779px] w-[850px] items-center  text-red-500'>
+        <img
+            src={UU}
+            alt="ww"
+            className=" "
+          />
+         
+          
+        </div>
+
+         <div className='flex justify-center flex-col bg-black h-[979px] w-[850px] items-center  text-red-500'>
+          
+          <img
+            src={TT}
+            alt="ww"
+            className=" flex justify-start"
+            />
+            
+          <div className='flex   flex-col'>
+            <h1 className='text-[#FFF528] text-2xl font-semibold'>FAST WORKFLOW BUILT FOR BROADCAST</h1>
+            <p className='text-white text-1xl'>Quickly find and incorporate <br /> relevant fan-generated content <br />
+              that resonates with your viewers.</p>       
+          </div>
+          <div className='flex mt-4 gap-10 flex-col'><img
+            src={yy}
+            alt="line"
+            className=" ml-24 "
+          />
+          <img
+            src={yy}
+            alt="line"
+            className=" ml-14 w-[1420px]  "
+          />
+          
+          
+          </div>
+          
+        </div>
+        
+         
+      
+      </div>
+
+     
         
     </div>
   )
