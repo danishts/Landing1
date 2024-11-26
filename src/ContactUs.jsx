@@ -9,11 +9,11 @@ import { FaInstagram } from "react-icons/fa6";
 function ContactUs() {
   return (
    <div className='h-full w-full bg-black'>
-      <div className='w-full  text-red-500 h-[928px]  '>
+      <div className='w-full  text-red-500 h-full  '>
  <img
             src={mal}
             alt="ww"
-            className=" "
+            className=" w-full h-screen "
           />
 
         
