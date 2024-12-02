@@ -210,9 +210,9 @@ function Features() {
             </p>
           </div>
 
-          <div className="flex  gap-10 flex-col">
-            <img src={line} alt="line" className=" mr-10 " />
-            <img src={line} alt="line" className=" mr-10 w-[1120px]  " />
+          <div className="flex  gap-10 flex-col">  
+            <img src={line} alt="line" className=" mt-5 w-[650px] mr-10 " />
+            <img src={line} alt="line" className=" m  w-[1250px] z-10 " />
           </div>
         </div>
         <div className="flex justify-end items-center w-[950px]  text-4xl text-red-500">
@@ -245,7 +245,7 @@ function Features() {
           </div>
           <div className="flex mt-4 gap-10 flex-col">
             <img src={yy} alt="line" className=" ml-24 " />
-            <img src={yy} alt="line" className=" ml-14 w-[1420px]  " />
+            <img src={yy} alt="line" className=" mr-  w-[850px] " />
           </div>
         </div>
       </div>
@@ -269,7 +269,7 @@ function Features() {
           </div>
           <div className="flex  gap-10 flex-col">
             <img src={line} alt="line" className=" mr-10 " />
-            <img src={line} alt="line" className=" mr-10 w-[1120px]  " />
+            <img src={line} alt="line" className=" mr-  w-[850px] " />
           </div>
         </div>
         <div className="flex justify-center items-center w-[950px]  text-4xl text-red-500">
@@ -298,7 +298,7 @@ function Features() {
           </div>
           <div className="flex mt-4 gap-10 flex-col">
             <img src={yy} alt="line" className=" ml-24 " />
-            <img src={yy} alt="line" className=" ml-14 w-[1420px]  " />
+            <img src={yy} alt="line" className=" mr-  w-[850px]" />
           </div>
         </div>
       </div>

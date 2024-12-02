@@ -20,7 +20,7 @@ const toggleForm = () => {
 };
 
   return (
-    <div className="h-full w-full bg-black">
+    <div className="h-full w-screen bg-black">
       <div className="w-full text-red-500 h-full">
         <img src={mal} alt="ww" className="w-full h-screen" />
       </div>

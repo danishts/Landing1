@@ -118,7 +118,7 @@ import pop from "./assets/pop.png";
 import dan from "./assets/dan.png";
 function About() {
   return (
-    <div className=" h-[1080px]  flex flex-col  bg-black items-center relative">
+    <div className=" h-[1080px] w-screen flex flex-col  bg-black items-center relative">
       {/* Background Image as an IMG */}
       <img
         src={dd}
