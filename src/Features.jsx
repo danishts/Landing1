@@ -243,9 +243,9 @@ function Features() {
               that resonates with your viewers.
             </p>
           </div>
-          <div className="flex mt-4 gap-10 flex-col">
+          <div className="flex mt-4 gap-6 flex-col">
             <img src={yy} alt="line" className=" ml-24 " />
-            <img src={yy} alt="line" className=" mr-  w-[850px] " />
+            <img src={yy} alt="line" className="  w-[850px] " />
           </div>
         </div>
       </div>
@@ -269,7 +269,7 @@ function Features() {
           </div>
           <div className="flex  gap-10 flex-col">
             <img src={line} alt="line" className=" mr-10 " />
-            <img src={line} alt="line" className=" mr-  w-[850px] " />
+            <img src={line} alt="line" className=" mr-  w-[850px] z-10 " />
           </div>
         </div>
         <div className="flex justify-center items-center w-[950px]  text-4xl text-red-500">
